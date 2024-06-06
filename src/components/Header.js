@@ -4,6 +4,7 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import userIcon from "../assets/user.png";
 import { IoSearchOutline } from "react-icons/io5";
 import {navigation} from '../constants/navigation';
+import avatar from "../assets/Netflix-avatar.png";
 
 
 
@@ -65,7 +66,7 @@ const Header = () => {
           </form>
 
           <div className="w-8 h-8 rounded-full overflow-hidden cursor-pointer active:scale-50 transition-all">
-            <img src={userIcon} alt="user icon" width="w-full h-full" />
+            <img src={avatar} alt="user icon" width="w-full h-full" />
           </div>
         </div>
       </div>
